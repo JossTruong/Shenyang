@@ -1,0 +1,143 @@
+/**************** PRINCIPAL *******************/
+/*IMPORT TYPO*/
+@font-face{
+  font-family: 'Dyno Regular';
+  src: url('../../font/Dyno Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Cicle Gordita';
+  src: url('../../font/Cicle Gordita.ttf');
+}
+
+body{
+  font-family:  'Cicle Gordita' !important; 
+  overflow-x: hidden;
+  /*color : #333333;*/
+  background-color: #333333;
+  color:white;
+}
+h1{
+  font-family: 'Dyno Regular'!important;
+}
+h3{
+  font-family: 'Dyno Regular'!important;
+}
+h6{
+  font-family: 'Dyno Regular'!important;
+} 
+/*************** FIN PRINCIPAL ****************/
+
+#barre{
+  background-color: #333333;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+/****************** NAV BAR *******************/
+.navbar{
+  background-color: #ea5c0d;
+  height: 60px;
+}
+.navbar button{
+  margin-right: 18px;
+}
+.collapse{ 
+  text-align: center;
+  background-color: #ea5c0d;
+  width: 100%;
+  margin-top: -8px;
+}
+.navbar-brand{
+  margin-left: 2%;
+  color: white !important;
+  font-size: 150% !important;
+}
+.navbar-brand:hover{
+  opacity: 0.6;
+}
+.dropdown-menu li{
+  text-align: center;
+}
+.navbar a{
+  color:white;
+}
+.navbar a img{
+  width: 40px;
+}
+.dropdown-menu{
+  background-color:#b94503;
+}
+#logoMCN{
+  width: 200px;
+  height: auto;
+  margin-top: -8px;
+}
+
+#langue{
+  position: fixed;
+  z-index: 9999;
+  right: 0;
+  margin-top: -18px;
+}
+#langue img{
+  height: 22px;
+  margin-left: 40%;
+}
+#langue img:hover{
+  opacity: 0.4;
+}
+#navBarre{
+  height: 38px;
+}
+
+/**************** FIN NAV BAR *****************/
+
+.up{
+  position: fixed;
+  z-index: 1;
+  height: 80px;
+  width: auto;
+  right: 0px;
+  bottom:20px;
+}
+
+/***************** GALERIE ********************/
+#nav2 {
+  margin-top: 95px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: #ea5c0d; 
+}
+#nav2 a{
+  font-size: 20px;
+  color: white;
+}
+#nav2 button{
+  margin: auto;
+  width: 100%;
+  background-color:  #ea5c0d;
+  color: white;
+  border: none;
+}
+#nav2 .dropdown-menu{
+  text-align: center;
+  width: 100%;
+}
+#nav2 a:hover{
+  background-color: #ea5c0d;
+}
+#nav2 a:focus{  
+  background-color: #ea5c0d;
+}
+
+/***************** FIN GALERIE ****************/
+
+footer{
+  margin-top: 2%;
+  width: 100%;
+  background-color: #ea5c0d;
+}

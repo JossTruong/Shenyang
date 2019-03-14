@@ -1,0 +1,133 @@
+/*IMPORT TYPO*/
+@font-face{
+  font-family: 'Dyno Regular';
+  src: url('font/Dyno Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Cicle Gordita';
+  src: url('font/Cicle Gordita.ttf');
+}
+
+body{
+  font-family:  'Cicle Gordita' !important;
+  overflow-x: hidden;
+  /*color : #333333;*/
+  background-color: #333333;
+  color:white;
+}
+
+h1{
+  font-family: 'Dyno Regular'!important;
+	margin-top: 50px;
+}
+h3{
+  font-family: 'Dyno Regular'!important;
+  color: white;
+}
+h6{
+  font-family: 'Dyno Regular'!important;
+}
+
+/****************** NAV BAR *******************/
+.navbar{
+  background-color: #ea5c0d;
+  height: 60px;
+}
+.navbar button{
+  margin-right: 18px;
+}
+.collapse{ 
+  text-align: center;
+  background-color: #ea5c0d;
+  width: 100%;
+  margin-top: -8px;
+}
+.navbar-brand{
+  margin-left: 2%;
+  color: white !important;
+  font-size: 150%;
+}
+.navbar-brand:hover{
+  opacity: 0.6;
+}
+.dropdown-menu li{
+  text-align: center;
+}
+.navbar a{
+  color:white;
+}
+.navbar a img{
+  width: 40px;
+}
+.dropdown-menu{
+  background-color:#b94503;
+}
+#logoMCN{
+  width: 200px;
+  height: auto;
+  margin-top: -8px;
+}
+
+#langue{
+  position: fixed;
+  z-index: 9999;
+  right: 0;
+  margin-top: 5px;
+}
+#langue img{
+  height: 22px;
+  margin-left: 40%;
+}
+#langue img:hover{
+  opacity: 0.4;
+}
+#navBarre{
+  height: 38px;
+}
+/**************** FIN NAV BAR *****************/
+label{
+	font-size: 25px;
+}
+
+form {
+	text-align: center;
+}
+
+.page {
+	margin-top: 20px;
+	border-top: 3px solid #ea5c0d;
+}
+
+textarea{
+	border-radius: 5px;
+	width : 80%;
+}
+
+.form-control{
+	margin : auto;
+	text-align: center;
+	width: 300px;
+}
+
+.bouton{
+	margin-top: 10px;
+	background-color: #ea5c0d;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+}
+.bouton:hover{
+	background-color: green;
+}
+.row img{
+	height: 100%;
+	width: 100%;
+  padding: 5px;
+}
+
+footer{
+  background-color: #ea5c0d;
+}
